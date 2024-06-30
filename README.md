@@ -1,36 +1,42 @@
-# Proyecto ReactJS - TiendaOnline
+![Portada del Proyecto](./src/Assets-img/PortafolioPortada.png)
 
-Mi Tienda Online
-Es un e-commerce sencillo para el proyecto final de React Js en CoderHouse. 
+## Mi Portafolio
+
+Este es un portafolio sencillo utilizando React JS. Aquí podrás encontrar información sobre mis habilidades, proyectos y formas de contacto.
+
+## Funcionalidades Principales
+
+- **Búsqueda y navegación de secciones**: Navega fácilmente por las diferentes secciones del portafolio.
+- **Conexión a la base de datos**
+
+### Capturas de Pantalla
+
+![Captura 1](/src/Assets-img/Portafolio.png)
 
 
-Funcionalidades Principales
+## Tecnologías Utilizadas
 
-Búsqueda y navegación de productos.
-Carrito de compras y proceso de pago.
-Gestión de pedidos y utilizacion de Firebase
+- **React JS**: Biblioteca principal para construir la interfaz de usuario.
+- **React Router**: Para la navegación entre las diferentes secciones del portafolio.
+- **TailwindCSS**: Framework de CSS para el diseño y la estilización.
+- **Firebase**: Plataforma para la gestión de la base de datos y autenticación.
+- **Vite**: Herramienta de construcción rápida para proyectos de frontend.
 
-Inserta aquí capturas de pantalla del proyecto para mostrar cómo se ve la interfaz de usuario. Puedes agregar varias imágenes en esta sección.
+## Instalación
 
-Tecnologías Utilizadas
+Sigue estos pasos para configurar el proyecto localmente:
 
-React JS
-React Router
-Bootstrap
-Firebase
-Vite
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
 
-Instalación
-Clona el repositorio: git clone https://github.com/tu-usuario/tu-repositorio.git
-Instala las dependencias: npm install
-Uso
-Describe cómo usar y configurar tu proyecto. Proporciona ejemplos si es posible.
+## Uso
+Para iniciar la aplicación en modo de desarrollo
+**En cualquier terminal**: npm run dev
 
-Contribución
-Indica si aceptas contribuciones y cómo los desarrolladores pueden hacerlo.
+## Autor
+Leonardo Gorosito
 
-Autor
-Nombre
-Contacto (email, redes sociales, etc.)
-Licencia
-Añade la licencia bajo la cual se publica tu proyecto.
+**Email:** leogorosito.lg@gmail.com
+**LinkedIn:** Leonardo Ezequiel Gorosito
+

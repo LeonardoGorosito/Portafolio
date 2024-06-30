@@ -7,7 +7,7 @@ import Inicio from './Components/Pages/Inicio'
 import SobreMi from './Components/Pages/SobreMi'
 import Proyectos from './Components/Pages/Proyectos'
 import Contacto from './Components/Pages/Contacto'
-import Habilidades from './Components/Pages/Habilidades'
+import Habilidades from './Components/Pages/Habilidades/Habilidades'
 
 
 

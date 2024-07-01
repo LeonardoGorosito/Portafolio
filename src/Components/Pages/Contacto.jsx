@@ -33,10 +33,10 @@ const Contacto = () => {
     };
 
     return (
-      <section id="contacto" className="py-1">
+      <section id="contacto" className="py-4">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Contacto</h2>
-          <form onSubmit={handleSubmit} className="max-w-lg mx-auto bg-slate-500 p-8 rounded-lg shadow-md">
+          <h2 className="text-3xl font-bold text-center mt-10 mb-8">Contacto</h2>
+          <form onSubmit={handleSubmit} className="max-w-lg mx-auto bg-black p-8 rounded-lg shadow-md ">
             <div className="mb-4">
               <label htmlFor="name" className="block text-white">Nombre</label>
               <input
@@ -69,11 +69,16 @@ const Contacto = () => {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-700" disabled={loading}>
+
+            <button type="submit" className="bg-blue-500  text-white py-2 px-4 rounded-lg hover:bg-blue-700" disabled={loading}>
               {loading ? 'Enviando...' : 'Enviar'}
             </button>
             {success && <p className="text-green-500 mt-4">Mensaje enviado con éxito!</p>}
+
+
           </form>
+
+
           <p className="text-lg text-white mx-auto mt-20 mb-20 text-center">
             Puedes contactarme a través de mi correo <a href="mailto:leogorosito.lg@gmail.com" className="text-blue-500">leogorosito.lg@gmail.com</a> o en LinkedIn: <a href="https://www.linkedin.com/in/leonardo-ezequiel-gorosito-9bb5a5182/" className="text-blue-500">linkedin.com/in/leonardogorosito</a>.
           </p>

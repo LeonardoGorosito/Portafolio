@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { IoIosDocument } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 
 
@@ -29,6 +30,11 @@ const Footer = () => {
             <a href="https://www.instagram.com/goroo_leo/" className="text-white hover:text-gray-400 text-2xl sm:text-lg">
               <FaInstagram />
             </a>
+            <a href="/src/Assets-pdf/CURRICULUM VITAE.pdf" className="text-white hover:text-gray-400 text-2xl sm:text-lg">
+              <IoIosDocument /> cv
+            </a>
+            
+
           </div>
       </div>
     </footer>

@@ -3,6 +3,7 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { MdDarkMode } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import Habilidades from '../Pages/Habilidades/Habilidades';
+import { IoIosDocument } from 'react-icons/io';
 
 
 const NavBar = () => {
@@ -44,6 +45,9 @@ const NavBar = () => {
           <a href="https://www.linkedin.com/in/leonardo-ezequiel-gorosito-9bb5a5182/" className="text-white hover:text-gray-400"><button><FaLinkedin /></button></a>
           <a href="https://github.com/LeonardoGorosito" className="text-white hover:text-gray-400"><button><FaGithub /></button></a>
           <a href="https://www.instagram.com/goroo_leo/" className="text-white hover:text-gray-400"><button><FaInstagram /></button></a>
+          <a href="/src/Assets-pdf/CURRICULUM VITAE.pdf" className="text-white hover:text-gray-400 text-2xl sm:text-lg">
+              <IoIosDocument />cv
+            </a>
         </div>
       </div>
       {isOpen && <div className="fixed inset-0 bg-black opacity-50 z-10" onClick={closeMenu}></div>}

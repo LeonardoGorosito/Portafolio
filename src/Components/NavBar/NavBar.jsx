@@ -37,7 +37,7 @@ const NavBar = () => {
         <div className={`md:flex gap-3 ${isOpen ? 'flex flex-col z-20 absolute w-36 text-2xl max-h-full right-4 bg-gray-950 top-12 gap-1 bottom-0 text-right transition-transform duration-300 ease-in-out transform translate-x-0' : 'hidden'} md:flex-row`}>
           <Link to="/" className="text-white hover:text-gray-400" onClick={closeMenu}>Inicio</Link>
           <Link to="/SobreMi" className="text-white hover:text-gray-400" onClick={closeMenu}>Sobre mí</Link>
-          <Link to="/Proyectos" className="text-white hover:text-gray-400" onClick={closeMenu}>Proyectos</Link>
+          {/* <Link to="/Proyectos" className="text-white hover:text-gray-400" onClick={closeMenu}>Proyectos</Link> */}
           <Link to="/Habilidades" className="text-white hover:text-gray-400" onClick={closeMenu}>Habilidades</Link>
           <Link to="/Contacto" className="text-white hover:text-gray-400" onClick={closeMenu}>Contacto</Link>
         </div>

@@ -34,7 +34,7 @@ const NavBar = () => {
           </button>
         </div>
 
-        <div className={`lg:flex gap-3 ${isOpen ? 'flex flex-col z-20 absolute w-36 text-2xl max-h-full right-4 bg-gray-950 top-12 gap-1 bottom-0 text-right transition-transform duration-300 ease-in-out transform translate-x-0' : 'hidden'} lg:flex-row`}>
+        <div className={`lg:flex gap-3 ${isOpen ? 'flex flex-col z-20 absolute w-36  text-4xl max-h-full right-4 bg-gray-950 top-12 gap-1 bottom-0 text-right transition-transform duration-300 ease-in-out transform translate-x-0' : 'hidden'} lg:flex-row`}>
           <Link to="/" className="text-white hover:text-gray-400" onClick={closeMenu}>Inicio</Link>
           <Link to="/SobreMi" className="text-white hover:text-gray-400" onClick={closeMenu}>Sobre mí</Link>
           {/* <Link to="/Proyectos" className="text-white hover:text-gray-400" onClick={closeMenu}>Proyectos</Link> */}

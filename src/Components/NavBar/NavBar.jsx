@@ -42,15 +42,7 @@ const NavBar = () => {
           <Link to="/Contacto" className="text-white hover:text-gray-400" onClick={closeMenu}>CONTACTO</Link>
           
           
-          <div className='mt-auto  '>
-          <a href="https://www.linkedin.com/in/leonardo-ezequiel-gorosito-9bb5a5182/" className="text-white hover:text-gray-400"><button><FaLinkedin /></button></a>
-
-          <a href="https://github.com/LeonardoGorosito" className="text-white hover:text-gray-400"><button><FaGithub /></button></a>
-
-          <a href="https://www.instagram.com/goroo_leo/" className="text-white hover:text-gray-400"><button><FaInstagram /></button></a>
-
-          <a href="https://drive.google.com/file/d/1EUHmyqSjMV68a5rgWSRE1chvi0t40Ssj/view?usp=drive_link" className="text-white hover:text-gray-400"><button><IoIosDocument /></button></a>
-            </div>
+          
             
           
       </div>

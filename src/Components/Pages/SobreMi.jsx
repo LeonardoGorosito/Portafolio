@@ -1,5 +1,9 @@
-import React from 'react'
-import FotoPerfil from '../../Assets-img/FotoTest.jpg'
+import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import FotoPerfil1 from '../../Assets-img/FotoTest.jpg';
+import FotoPerfil2 from '../../Assets-img/FotoTest2.jpg';
+import FotoPerfil3 from '../../Assets-img/FotoTest3.jpg';
 
 const SobreMi = () => {
   return (
@@ -13,11 +17,17 @@ const SobreMi = () => {
         <div className="flex flex-col lg:flex-row items-center lg:items-start">
 
           <div className="lg:w-1/3 mb-8 lg:mb-0">
-            <img 
-              src= {FotoPerfil} 
-              alt="Foto de Leonardo Gorosito" 
-              className="rounded-3xl w-100 h-100 object-cover mx-auto lg:mx-0"
-            />
+            <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows autoPlay>
+              <div>
+                <img src={FotoPerfil1} alt="Foto de Leonardo Gorosito 1" className="rounded-3xl w-100 h-100 object-cover mx-auto lg:mx-0" />
+              </div>
+              <div>
+                <img src={FotoPerfil2} alt="Foto de Leonardo Gorosito 2" className="rounded-3xl w-100 h-100 object-cover mx-auto lg:mx-0" />
+              </div>
+              <div>
+                <img src={FotoPerfil3} alt="Foto de Leonardo Gorosito 3" className="rounded-3xl w-100 h-100 object-cover mx-auto lg:mx-0" />
+              </div>
+            </Carousel>
           </div>
           
           <div className="lg:w-2/3 lg:pl-12">
@@ -71,4 +81,4 @@ const SobreMi = () => {
   )
 }
 
-export default SobreMi
+export default SobreMi;

@@ -34,13 +34,28 @@ const NavBar = () => {
           </button>
         </div>
 
-        <div className={`lg:flex gap-3 ${isOpen ? 'flex flex-col z-20 absolute w-36  text-4xl max-h-full right-4 bg-gray-950 top-12 gap-1 bottom-0 text-right transition-transform duration-300 ease-in-out transform translate-x-0' : 'hidden'} lg:flex-row`}>
-          <Link to="/" className="text-white hover:text-gray-400" onClick={closeMenu}>Inicio</Link>
-          <Link to="/SobreMi" className="text-white hover:text-gray-400" onClick={closeMenu}>Sobre mí</Link>
+        <div className={`lg:flex gap-3 ${isOpen ? 'flex flex-col z-20 fixed h-screen w-1/3 top-0  text-4xl max-h-full right-4 bg-gray-950 gap-4 bottom-0 text-right transition-transform duration-300 ease-in-out transform translate-x-0' : 'hidden'} lg:flex-row`}>
+          <Link to="/" className="text-white hover:text-gray-400" onClick={closeMenu}>INICIO</Link>
+          <Link to="/SobreMi" className="text-white hover:text-gray-400" onClick={closeMenu}>SOBRE MÍ</Link>
           {/* <Link to="/Proyectos" className="text-white hover:text-gray-400" onClick={closeMenu}>Proyectos</Link> */}
-          <Link to="/Habilidades" className="text-white hover:text-gray-400" onClick={closeMenu}>Habilidades</Link>
-          <Link to="/Contacto" className="text-white hover:text-gray-400" onClick={closeMenu}>Contacto</Link>
-        </div>
+          <Link to="/Habilidades" className="text-white hover:text-gray-400" onClick={closeMenu}>HABILIDADES</Link>
+          <Link to="/Contacto" className="text-white hover:text-gray-400" onClick={closeMenu}>CONTACTO</Link>
+          
+          
+          <div className='mt-auto  '>
+          <a href="https://www.linkedin.com/in/leonardo-ezequiel-gorosito-9bb5a5182/" className="text-white hover:text-gray-400"><button><FaLinkedin /></button></a>
+
+          <a href="https://github.com/LeonardoGorosito" className="text-white hover:text-gray-400"><button><FaGithub /></button></a>
+
+          <a href="https://www.instagram.com/goroo_leo/" className="text-white hover:text-gray-400"><button><FaInstagram /></button></a>
+
+          <a href="https://drive.google.com/file/d/1EUHmyqSjMV68a5rgWSRE1chvi0t40Ssj/view?usp=drive_link" className="text-white hover:text-gray-400"><button><IoIosDocument /></button></a>
+            </div>
+            
+          
+      </div>
+
+
         <div className={`lg:flex ${isOpen ? 'hidden' : 'hidden'} flex-col lg:flex-row gap-2`}>
           <a href="https://www.linkedin.com/in/leonardo-ezequiel-gorosito-9bb5a5182/" className="text-white hover:text-gray-400"><button><FaLinkedin /></button></a>
           <a href="https://github.com/LeonardoGorosito" className="text-white hover:text-gray-400"><button><FaGithub /></button></a>

@@ -1,13 +1,13 @@
 // import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import Footer from '../Footer/Footer'
-import FotoPerfil from '../../Assets-img/FotoTest.jpg'
+import FotoPerfil from '../../Assets-img/FotoTest2.jpg'
 
 const Inicio = () => {
   return (
 
      <>
-      <section id="inicio" className="container min-h-full flex items-start justify-center pb-36 pt-20">
+      <section id="inicio" className="container min-h-full flex items-center justify-center pb-36 pt-20">
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
             <div className="relative w-76 h-76 mx-auto rounded-full overflow-hidden border-4 border-white shadow-lg">

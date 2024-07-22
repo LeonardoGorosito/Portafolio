@@ -3,7 +3,6 @@ import { FcProcess } from 'react-icons/fc';
 import { IoLogoFirebase } from 'react-icons/io5';
 import Habilidad from './Habilidad';
 import { Link } from 'react-router-dom';
-import Nada from '../Nada';
 
 const HabilidadesBackend = () => (
   <>
@@ -15,9 +14,10 @@ const HabilidadesBackend = () => (
     </div>
 
     <div className="flex justify-center mr-52 items-center">
-    <Link to='/Nada'><Habilidad icon={<FcProcess className="text-6xl transition-transform transform hover:scale-150 duration-500" />} name="En proceso..." /></Link>
-    </div>
-  </div>
+    <a href=''><Habilidad icon={<FcProcess className="text-6xl transition-transform transform hover:scale-150 duration-500" />} name="En proceso..." /></a>
+      </div>
+      </div>
+
 </>
   );
   

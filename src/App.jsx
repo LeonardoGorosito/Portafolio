@@ -8,7 +8,6 @@ import SobreMi from './Components/Pages/SobreMi'
 import Proyectos from './Components/Pages/Proyectos'
 import Contacto from './Components/Pages/Contacto'
 import Habilidades from './Components/Pages/Habilidades/Habilidades'
-import Nada from './Components/Pages/Nada'
 import { Analytics } from '@vercel/analytics/react'
 
 
@@ -29,7 +28,6 @@ const App = () => {
         <Route path='/Contacto' element={<Contacto/>}/>
         <Route path='/Habilidades' element={<Habilidades/>}/>
         <Route path='/' element={<Footer/>}/>
-        <Route path='/Nada'element={<Nada/>}/>
         
 
       </Routes>

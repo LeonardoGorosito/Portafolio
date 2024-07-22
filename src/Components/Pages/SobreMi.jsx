@@ -7,7 +7,7 @@ import FotoPerfil3 from '../../Assets-img/FotoTest3.jpg';
 
 const SobreMi = () => {
   return (
-    <section className="py-12">
+    <section className="py-20 animate-fade-down animate-once animate-delay-100">
       <div className="container mx-auto px-6 lg:px-20">
 
         <div className="text-center">

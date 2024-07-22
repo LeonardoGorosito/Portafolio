@@ -9,6 +9,7 @@ import Proyectos from './Components/Pages/Proyectos'
 import Contacto from './Components/Pages/Contacto'
 import Habilidades from './Components/Pages/Habilidades/Habilidades'
 import Nada from './Components/Pages/Nada'
+import { Analytics } from '@vercel/analytics/react'
 
 
 
@@ -16,6 +17,7 @@ import Nada from './Components/Pages/Nada'
 const App = () => {
   return (
     <div className='app'>
+      <Analytics/>
     <BrowserRouter>
 
      <NavBar/>

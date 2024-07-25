@@ -9,9 +9,7 @@ const HabilidadesFrontend = () => (
       <div className="flex justify-center items-center">
         <a href="https://es.react.dev"><Habilidad icon={<FaReact className="text-6xl text-blue-500 transition-transform transform hover:scale-150 duration-500" />} name="React.js" /></a>
       </div>
-      <div className="flex justify-center items-center">
-        <a href="https://nodejs.org/en"><Habilidad icon={<FaNodeJs className="text-6xl text-green-500 transition-transform transform hover:scale-150 duration-500" />} name="Node.js" /></a>
-      </div>
+      
       <div className="flex justify-center items-center">
         <a href="https://es.wikipedia.org/wiki/HTML5"><Habilidad icon={<FaHtml5 className="text-6xl text-orange-500 transition-transform transform hover:scale-150 duration-500" />} name="HTML5" /></a>
       </div>
